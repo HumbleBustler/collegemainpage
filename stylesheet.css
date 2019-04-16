@@ -1,0 +1,85 @@
+ul.top {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: brown;
+  border-width: 1;
+  border-color: white;
+}
+
+li.Institute{
+  float: left;
+}
+
+li.Institute a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li.Institute a:hover {
+  background-color: grey;
+}
+div.Institute {
+  display: none;
+}
+li.Institute:hover + div.Institute{
+	display: block;
+}
+nav.rightside{
+	float: right;
+	width: 16%;
+	height: 100%;
+	background-color:white;
+	padding: 20px;
+	color: #556f99;
+	border-width: 1px
+	border-color: grey;
+}
+nav ul.side{
+	list-style-type: none;
+	padding: 0;
+}
+article{
+	float: left;
+	padding: 20px;
+	width: 75%;
+	border-color: grey;
+	border-width: 1px;
+	background-color: white;
+	
+}
+
+nav.leftside{
+	float: left;
+	width: 15%;
+	height: 100%;
+	background-color:white;
+	padding: 20px;
+	color: #556f99;
+	border-width: 1px;
+	border-color: grey;
+}
+nav ul.lside{
+	list-style-type: none;
+	padding: 0;
+}
+
+nav.center{
+	float: left;
+	width: 50%;
+	height: 100%;
+	background-color:white;
+	padding: 20px;
+	color: #556f99;
+}
+nav ul.cent{
+	list-style-type: none;
+	padding: 0;
+}
+li{
+	text-decoration: none;
+}
